@@ -1,7 +1,7 @@
 <!DOCTYPE HTML>
 <?php 
     require_once("settings.php");
-    $con = mysqli_connect($host,$user,$pwd,$sql_db);
+    $con = mysqli_connect($host,$user,$pwd, $sql_db);
     if(! $con){
         die("Connection failed: " . mysqli_connect_error());
     }
